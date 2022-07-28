@@ -1,2 +1,2 @@
 # StudentReport
-Using Bridging Between C++ and Kotlin create Student Report Card App
+Using JNI Bridging Between C++ and Kotlin create Student Report Card App
