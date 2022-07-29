@@ -16,14 +16,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         // Example of a call to a native method
-        binding.sampleText.text = getGpa().toString()
+        // binding.sampleText.text = getGpa().toString()
+        addStudent("Ryan")
+        addStudent("Jenny")
     }
 
     /**
      * A native method that is implemented by the 'studentreport' native library,
      * which is packaged with this application.
      */
-    external fun getGpa(): Float
+    external fun addStudent(student_name: String)
 
     companion object {
         // Used to load the 'studentreport' library on application startup.
