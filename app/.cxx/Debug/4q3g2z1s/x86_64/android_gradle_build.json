@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "/home/rbonavida/Depots/Home/StudentReport/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/rbonavida/Android/Sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/home/rbonavida/Depots/Home/StudentReport/app/.cxx/Debug/4q3g2z1s/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/rbonavida/Android/Sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/home/rbonavida/Depots/Home/StudentReport/app/.cxx/Debug/4q3g2z1s/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "studentreport::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "studentreport",
+      "output": "/home/rbonavida/Depots/Home/StudentReport/app/build/intermediates/cxx/Debug/4q3g2z1s/obj/x86_64/libstudentreport.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/rbonavida/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+      "cppCompilerExecutable": "/home/rbonavida/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

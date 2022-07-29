@@ -31,6 +31,6 @@ Java_com_example_studentreport_MainActivity_addStudent(
   new_student->Name = UTF_student_name;
 }
 
-Student findStudent(std::string student_name){
-
-}
+//Student findStudent(std::string student_name){
+//
+//}

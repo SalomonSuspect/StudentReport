@@ -1,0 +1,7 @@
+Executable : /home/rbonavida/Android/Sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/home/rbonavida/Depots/Home/StudentReport/app/.cxx/Debug/4q3g2z1s/armeabi-v7a
+studentreport
+jvmArgs : 
+

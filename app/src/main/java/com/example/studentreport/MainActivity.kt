@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         // binding.sampleText.text = getGpa().toString()
         addStudent("Ryan")
         addStudent("Jenny")
+        binding.sampleText.text = "Done with students"
     }
 
     /**

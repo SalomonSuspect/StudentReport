@@ -1,0 +1,23 @@
+                    Executable : /home/rbonavida/Android/Sdk/cmake/3.18.1/bin/cmake
+arguments : 
+-H/home/rbonavida/Depots/Home/StudentReport/app/src/main/cpp
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-21
+-DANDROID_ABI=x86
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DANDROID_NDK=/home/rbonavida/Android/Sdk/ndk/21.4.7075529
+-DCMAKE_ANDROID_NDK=/home/rbonavida/Android/Sdk/ndk/21.4.7075529
+-DCMAKE_TOOLCHAIN_FILE=/home/rbonavida/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/home/rbonavida/Android/Sdk/cmake/3.18.1/bin/ninja
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/rbonavida/Depots/Home/StudentReport/app/build/intermediates/cxx/Debug/4q3g2z1s/obj/x86
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/rbonavida/Depots/Home/StudentReport/app/build/intermediates/cxx/Debug/4q3g2z1s/obj/x86
+-DCMAKE_BUILD_TYPE=Debug
+-B/home/rbonavida/Depots/Home/StudentReport/app/.cxx/Debug/4q3g2z1s/x86
+-GNinja
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2
