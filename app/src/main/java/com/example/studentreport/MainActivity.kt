@@ -19,7 +19,9 @@ class MainActivity : AppCompatActivity() {
         // binding.sampleText.text = getGpa().toString()
         addStudent("Ryan")
         addStudent("Jenny")
-        binding.sampleText.text = "Done with students"
+        binding.sampleText.text = "Done Adding Students"
+
+
     }
 
     /**
@@ -27,11 +29,13 @@ class MainActivity : AppCompatActivity() {
      * which is packaged with this application.
      */
     external fun addStudent(student_name: String)
+    external fun getStudentGPA(student_name: String)
 
     companion object {
         // Used to load the 'studentreport' library on application startup.
         init {
             System.loadLibrary("studentreport")
+
         }
     }
 }
