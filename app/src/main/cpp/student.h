@@ -11,9 +11,11 @@ public:
     float getGPA();
 };
 
+void addStudent(std::string student_name);
+
 typedef struct{
     Student roster[MAX_CLAS_SIZE];
-    int clase_size;
+    int class_size=0;
 }Classroom;
 
 Student* find_student(Classroom * classroom, std::string student_name);
