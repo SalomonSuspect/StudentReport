@@ -1,8 +1,6 @@
 package com.example.studentreport
-
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.TextView
 import com.example.studentreport.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -14,12 +12,15 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        var jenniesClass = ClassRoom()
 
         // Example of a call to a native method
         // binding.sampleText.text = getGpa().toString()
-        addStudent("Ryan")
-        addStudent("Jenny")
-        binding.sampleText.text = "Done Adding Students"
+        jenniesClass.addStudent("Ryan")
+        jenniesClass.addStudent("Jenny")
+        jenniesClass.updateStudentGrade("Ryan", 4.0)
+        binding.sampleText.text = jenniesClass.getStudentReportCard("Ryan").toString()
+
 
 
     }
