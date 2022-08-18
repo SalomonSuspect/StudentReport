@@ -7,6 +7,11 @@ class Student(var name:String){
         grades.add(grade)
     }
     fun get_GPA(): Double{
-        return grades.average()
+        if(grades.size > 0) {
+            return grades.average()
+        }
+        else{
+            return 0.0
+        }
     }
 }
